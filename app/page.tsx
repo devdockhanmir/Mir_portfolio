@@ -194,7 +194,7 @@ export default function Home() {
                 className="text-5xl lg:text-8xl font-light p-4 mb-4 md:text-left text-center"
                 id="intro_main"
               >
-                Need A Loan Now ?
+                Crafting Unique Digital Experiences : Mir Hussain Ali Khan Portfolio
               </h1>
             </div>
             <div className="w-[100%]">
@@ -202,8 +202,7 @@ export default function Home() {
                 className="text-md md:text-xl mb-6 max-w-lg md:text-left text-center w-full p-4"
                 id="intro_content"
               >
-                Flexible loans designed for you. Achieve your goals with ease
-                and confidence.
+                Explore the portfolio of Mir Hussain Ali Khan, a creative professional specializing in web development, design, and innovative solutions. Discover projects that showcase expertise in building user-focused, responsive, and visually stunning digital experiences tailored to clients' needs
               </p>
             </div>
             <div
@@ -218,7 +217,7 @@ export default function Home() {
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
               >
-                Request Funds Here
+                Download CV
               </button>
             </div>
           </div>
@@ -227,6 +226,33 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+
+      {/* New Section */}
+      <div className=" h-1 bg-gray-400 shadow-blurred-white mt-10"></div>
+      <section
+        className="relative  flex flex-col items-center text-white my-16 "
+        id="speciality_sec"
+      >
+        <div className="mb-4">
+          <span className="px-6 py-2 bg-custom-gradient text-white font-semibold rounded-full">
+           Skills
+          </span>
+        </div>
+        <h2
+          className="text-3xl md:text-4xl font-semibold mt-6 mb-4 text-center"
+          id="speciality_heading"
+        >
+          My Skill Set
+        </h2>
+        <p
+          className="text-md md:text-xl lg:max-w-2xl max-w-lg mt-2 text-center text-white px-2"
+          id="speciality_content"
+        >
+          Discover my wide range of range of skills
+        </p>
+        <SpecialityComponent />
+      </section>
       <div className=" h-1 mt-10 bg-gray-400 shadow-blurred-white"></div>
       <section
         className="relative flex flex-col items-center text-white mt-16"
@@ -245,32 +271,6 @@ export default function Home() {
         </h2>
 
         <Loans />
-      </section>
-
-      {/* New Section */}
-      <div className=" h-1 bg-gray-400 shadow-blurred-white mt-10"></div>
-      <section
-        className="relative  flex flex-col items-center text-white my-16 "
-        id="speciality_sec"
-      >
-        <div className="mb-4">
-          <span className="px-6 py-2 bg-custom-gradient text-white font-semibold rounded-full">
-            WHY US
-          </span>
-        </div>
-        <h2
-          className="text-3xl md:text-4xl font-semibold mt-6 mb-4 text-center"
-          id="speciality_heading"
-        >
-          What Makes Us Different
-        </h2>
-        <p
-          className="text-md md:text-xl lg:max-w-2xl max-w-lg mt-2 text-center text-white px-2"
-          id="speciality_content"
-        >
-          Discover why we're the trusted choice for your funding needs
-        </p>
-        <SpecialityComponent />
       </section>
 
       <div className=" h-1 bg-gray-400 shadow-blurred-white"></div>
@@ -360,7 +360,7 @@ export default function Home() {
           Get started today by filling out our easy application form and take
           the first step toward your financial solution.
         </p>
-        <Form />
+        
       </section>
       <Footer />
     </div>

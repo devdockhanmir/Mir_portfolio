@@ -19,7 +19,7 @@ export const SpecialityComponent = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full gap-10 py-16">
       <div className="lg:w-[40vw]  w-[80vw] rounded-full bg-[#999999] flex justify-evenly">
-        {(["Easy", "Trust", "Available"] as const).map((button) => (
+        {(["Cloud", "AI", "ML"] as const).map((button) => (
           <button
             key={button}
             className={`w-1/3 py-2 rounded-full ${

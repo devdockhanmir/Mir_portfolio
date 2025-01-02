@@ -13,8 +13,8 @@ const NavBar: React.FC = () => {
 
   const items = [
     { item: "HOME", id: "intro_main" },
-    { item: "PROCESS", id: "process_sec" },
-    { item: "LOANS", id: "loan_sec" },
+    { item: "SKILLS", id: "process_sec" },
+    { item: "PROJECTS", id: "loan_sec" },
     { item: "CONTACT", id: "form_section" },
   ];
 
@@ -90,14 +90,7 @@ const NavBar: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex-grow flex justify-center mx-4">
-          <Link href="/" passHref>
-            <div className="inline-block">
-              {/* Logo placeholder */}
-              <Image src="/logo.png" alt="logo" width={300} height={300} />
-            </div>
-          </Link>
-        </div>
+
 
         <div className="flex items-center space-x-10 w-full justify-center h-full rounded-full">
           {items.slice(2).map((item, index) => (

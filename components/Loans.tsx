@@ -177,7 +177,7 @@ const Loans: React.FC = () => {
             >
               {/* Front of the card */}
               <Card
-                className="bg-gray-600 p-8 rounded-lg shadow-lg transform transition-transform lg:hover:scale-105 duration-300 border-none flex flex-col justify-evenly gap-2 md:min-h-[60vh] min-h-[70vh]"
+                className=" bg-custom-gradient p-8 rounded-lg shadow-lg transform transition-transform lg:hover:scale-105 duration-300 border-none flex flex-col justify-evenly gap-2 md:min-h-[60vh] min-h-[70vh]"
                 onClick={() => handleFlip(index)}
               >
                 <div>
@@ -204,7 +204,7 @@ const Loans: React.FC = () => {
               </Card>
               {/* Back of the card */}
               <Card
-                className="bg-gray-600 p-8 rounded-lg shadow-lg transform transition-transform lg:hover:scale-105 duration-300 border-none flex flex-col justify-between md:min-h-[60vh] min-h-[70vh] "
+                className="bg-[#999999] p-8 rounded-lg shadow-lg transform transition-transform lg:hover:scale-105 duration-300 border-none flex flex-col justify-between md:min-h-[60vh] min-h-[70vh] "
                 onClick={() => handleFlip(index)}
               >
                 <div className="text-left flex flex-col">

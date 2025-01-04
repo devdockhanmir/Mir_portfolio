@@ -169,7 +169,7 @@ export default function Home() {
     <div
       ref={scope}
       className="relative min-h-screen bg-cover bg-center overflow-hidden"
-      style={{ backgroundImage: "url('/background.jpg')" }}
+      style={{ backgroundImage: "url('/bg2.jpg')" }}
     >
       <NavBar />
       <main className="relative flex flex-col items-center justify-center min-h-screen text-white ">

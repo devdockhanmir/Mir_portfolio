@@ -52,7 +52,7 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        "custom-gradient": "linear-gradient(90deg, #84FE77, #3A6D35)",
+        "custom-gradient": "linear-gradient(90deg, #000000, #434343)",
       },
       boxShadow: {
         "blurred-white": "0 4px 10px 2px rgba(255, 255, 255, 0.5)",

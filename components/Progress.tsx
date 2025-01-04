@@ -200,7 +200,7 @@ const ProgressBar = () => {
                         progressLineRefs.current[index] = el;
                       }
                     }}
-                    className="h-40 w-1 bg-gray-600 relative overflow-hidden mx-auto"
+                    className="h-40 w-1 bg-white relative overflow-hidden mx-auto"
                   >
                     <div
                       className="dynamic-progress absolute top-0 left-0 w-full bg-custom-gradient"
@@ -227,7 +227,7 @@ const ProgressBar = () => {
                 <div className="mb-4 text-white ">
                   <card.icon className="w-12 h-12 mx-auto " />
                 </div>
-                <Card className="flex bg-gray-600 flex-col items-center justify-center text-center md:min-h-[10vh] min-h-[25vh] ">
+                <Card className="flex bg-[#999999] bg-opacity-70 flex-col items-center justify-center text-center md:min-h-[10vh] min-h-[25vh] ">
                   <CardHeader>
                     <CardTitle className="md:text-3xl text-xl mt-0 mb-0 font-medium text-white">
                       {card.title}
@@ -258,7 +258,7 @@ const ProgressBar = () => {
                 <div className="mb-4 text-white ">
                   <card.icon className="w-12 h-12 mx-auto " />
                 </div>
-                <Card className="flex bg-gray-600 flex-col items-center justify-between text-center min-h-[30vh] w-[15vw] p-2">
+                <Card className="flex bg-[#999999] bg-opacity-70 flex-col items-center justify-between text-center min-h-[30vh] w-[15vw] p-2">
                   <CardHeader className="flex flex-col items-center w-full">
                     <CardTitle className="md:text-3xl text-xl mt-0 mb-2 font-medium text-white">
                       {card.title}
@@ -280,7 +280,7 @@ const ProgressBar = () => {
             >
               <div className="h-5 w-5 rounded-full bg-custom-gradient"></div>
               {index !== cardData.length - 1 && (
-                <div className="h-1 w-[18vw] bg-gray-600 relative overflow-hidden">
+                <div className="h-1 w-[18vw] bg-white relative overflow-hidden">
                   <div
                     ref={(el) => {
                       if (desktopProgressRefs.current) {
